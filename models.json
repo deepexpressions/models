@@ -1,0 +1,71 @@
+{
+    "vggface_ce" : {
+        "convnet" : "VGGFACE",
+        "database" : "Compound Emotions Database",
+        "descriptive" : "Facial Emotions Recognition",
+        "derivations" : "`vggface_ce_l1`, `vggface_ce_l3`",
+        "input_shape" : "(150, 150, 3)",
+        "labels" : {
+            "0" : "Anger",
+            "1" : "Disgust",
+            "2" : "Fear",            
+            "3" : "Happiness",
+            "4" : "Neutral",
+            "5" : "Sadness",
+            "6" : "Surprise"
+        }
+    },
+
+    "vggface_ck" : {
+        "convnet" : "VGGFACE",
+        "database" : "The Extended Cohn-Kanade Dataset",
+        "descriptive" : "Facial Emotions Recognition",
+        "derivations" : "`vggface_ck_l1`, `vggface_ck_l3`",
+        "input_shape" : "(150, 150, 3)",
+        "labels" : {
+            "0" : "Anger",
+            "1" : "Disgust",
+            "2" : "Fear",            
+            "3" : "Happiness",
+            "4" : "Neutral",
+            "5" : "Sadness",
+            "6" : "Surprise"
+        }
+    },
+
+    "vggface_kdef" : {
+        "convnet" : "VGGFACE",
+        "database" : "Karolinska Directed Emotional Faces Dataset",
+        "descriptive" : "Facial Emotions Recognition",
+        "derivations" : "`vggface_kdef_l1`, `vggface_kdef_l3`",
+        "input_shape" : "(150, 150, 3)",
+        "labels" : {
+            "0" : "Anger",
+            "1" : "Disgust",
+            "2" : "Fear",            
+            "3" : "Happiness",
+            "4" : "Neutral",
+            "5" : "Sadness",
+            "6" : "Surprise"
+        }
+    },
+
+    "vggface_iffg" : {
+        "convnet" : "VGGFACE",
+        "database" : "IF Facial Gestures Database",
+        "descriptive" : "Facial Gestures Recognition",
+        "derivations" : "None",
+        "input_shape" : "(224, 224, 3)",
+        "labels" : {
+            "0" : "Blink",
+            "1" : "Cheeks",
+            "2" : "Eyebrows down",            
+            "3" : "Eyebrows up",
+            "4" : "Kiss",
+            "5" : "Mouth",
+            "6" : "Neutral",
+            "7" : "Tongue",
+            "8" : "Wrinkle"
+        }
+    }
+}
